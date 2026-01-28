@@ -82,6 +82,81 @@
           }
         }
       },
+      "LibGit2Sharp/0.31.0": {
+        "type": "package",
+        "dependencies": {
+          "LibGit2Sharp.NativeBinaries": "[2.0.323]"
+        },
+        "compile": {
+          "lib/net472/LibGit2Sharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net472/LibGit2Sharp.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "LibGit2Sharp.NativeBinaries/2.0.323": {
+        "type": "package",
+        "build": {
+          "build/net46/LibGit2Sharp.NativeBinaries.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/LibGit2Sharp.NativeBinaries.props": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-arm/native/libgit2-3f4182d.so": {
+            "assetType": "native",
+            "rid": "linux-arm"
+          },
+          "runtimes/linux-arm64/native/libgit2-3f4182d.so": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-musl-arm/native/libgit2-3f4182d.so": {
+            "assetType": "native",
+            "rid": "linux-musl-arm"
+          },
+          "runtimes/linux-musl-arm64/native/libgit2-3f4182d.so": {
+            "assetType": "native",
+            "rid": "linux-musl-arm64"
+          },
+          "runtimes/linux-musl-x64/native/libgit2-3f4182d.so": {
+            "assetType": "native",
+            "rid": "linux-musl-x64"
+          },
+          "runtimes/linux-ppc64le/native/libgit2-3f4182d.so": {
+            "assetType": "native",
+            "rid": "linux-ppc64le"
+          },
+          "runtimes/linux-x64/native/libgit2-3f4182d.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx-arm64/native/libgit2-3f4182d.dylib": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-x64/native/libgit2-3f4182d.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-arm64/native/git2-3f4182d.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          },
+          "runtimes/win-x64/native/git2-3f4182d.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/git2-3f4182d.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
       "MessagePack/2.2.85": {
         "type": "package",
         "dependencies": {
@@ -1521,13 +1596,16 @@
           }
         }
       },
-      "System.ComponentModel.Composition/4.5.0": {
+      "System.ComponentModel.Composition/10.0.2": {
         "type": "package",
+        "frameworkAssemblies": [
+          "System.ComponentModel.Composition"
+        ],
         "compile": {
-          "ref/net45/_._": {}
+          "lib/net462/_._": {}
         },
         "runtime": {
-          "lib/net45/_._": {}
+          "lib/net462/_._": {}
         }
       },
       "System.Diagnostics.DiagnosticSource/5.0.1": {
@@ -2097,6 +2175,31 @@
           }
         }
       },
+      "LibGit2Sharp/0.31.0": {
+        "type": "package",
+        "dependencies": {
+          "LibGit2Sharp.NativeBinaries": "[2.0.323]"
+        },
+        "compile": {
+          "lib/net472/LibGit2Sharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net472/LibGit2Sharp.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "LibGit2Sharp.NativeBinaries/2.0.323": {
+        "type": "package",
+        "build": {
+          "build/net46/LibGit2Sharp.NativeBinaries.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/LibGit2Sharp.NativeBinaries.props": {}
+        }
+      },
       "MessagePack/2.2.85": {
         "type": "package",
         "dependencies": {
@@ -3560,13 +3663,16 @@
           }
         }
       },
-      "System.ComponentModel.Composition/4.5.0": {
+      "System.ComponentModel.Composition/10.0.2": {
         "type": "package",
+        "frameworkAssemblies": [
+          "System.ComponentModel.Composition"
+        ],
         "compile": {
-          "ref/net45/_._": {}
+          "lib/net462/_._": {}
         },
         "runtime": {
-          "lib/net45/_._": {}
+          "lib/net462/_._": {}
         }
       },
       "System.Diagnostics.DiagnosticSource/5.0.1": {
@@ -4100,6 +4206,34 @@
           }
         }
       },
+      "LibGit2Sharp/0.31.0": {
+        "type": "package",
+        "dependencies": {
+          "LibGit2Sharp.NativeBinaries": "[2.0.323]"
+        },
+        "compile": {
+          "lib/net472/LibGit2Sharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net472/LibGit2Sharp.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "LibGit2Sharp.NativeBinaries/2.0.323": {
+        "type": "package",
+        "native": {
+          "runtimes/win-arm64/native/git2-3f4182d.dll": {}
+        },
+        "build": {
+          "build/net46/LibGit2Sharp.NativeBinaries.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/LibGit2Sharp.NativeBinaries.props": {}
+        }
+      },
       "MessagePack/2.2.85": {
         "type": "package",
         "dependencies": {
@@ -5533,13 +5667,16 @@
           }
         }
       },
-      "System.ComponentModel.Composition/4.5.0": {
+      "System.ComponentModel.Composition/10.0.2": {
         "type": "package",
+        "frameworkAssemblies": [
+          "System.ComponentModel.Composition"
+        ],
         "compile": {
-          "ref/net45/_._": {}
+          "lib/net462/_._": {}
         },
         "runtime": {
-          "lib/net45/_._": {}
+          "lib/net462/_._": {}
         }
       },
       "System.Diagnostics.DiagnosticSource/5.0.1": {
@@ -6065,6 +6202,34 @@
           "lib/net472/_._": {
             "related": ".xml"
           }
+        }
+      },
+      "LibGit2Sharp/0.31.0": {
+        "type": "package",
+        "dependencies": {
+          "LibGit2Sharp.NativeBinaries": "[2.0.323]"
+        },
+        "compile": {
+          "lib/net472/LibGit2Sharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net472/LibGit2Sharp.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "LibGit2Sharp.NativeBinaries/2.0.323": {
+        "type": "package",
+        "native": {
+          "runtimes/win-x64/native/git2-3f4182d.dll": {}
+        },
+        "build": {
+          "build/net46/LibGit2Sharp.NativeBinaries.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/LibGit2Sharp.NativeBinaries.props": {}
         }
       },
       "MessagePack/2.2.85": {
@@ -7530,13 +7695,16 @@
           }
         }
       },
-      "System.ComponentModel.Composition/4.5.0": {
+      "System.ComponentModel.Composition/10.0.2": {
         "type": "package",
+        "frameworkAssemblies": [
+          "System.ComponentModel.Composition"
+        ],
         "compile": {
-          "ref/net45/_._": {}
+          "lib/net462/_._": {}
         },
         "runtime": {
-          "lib/net45/_._": {}
+          "lib/net462/_._": {}
         }
       },
       "System.Diagnostics.DiagnosticSource/5.0.1": {
@@ -8070,6 +8238,34 @@
           }
         }
       },
+      "LibGit2Sharp/0.31.0": {
+        "type": "package",
+        "dependencies": {
+          "LibGit2Sharp.NativeBinaries": "[2.0.323]"
+        },
+        "compile": {
+          "lib/net472/LibGit2Sharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net472/LibGit2Sharp.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "LibGit2Sharp.NativeBinaries/2.0.323": {
+        "type": "package",
+        "native": {
+          "runtimes/win-x86/native/git2-3f4182d.dll": {}
+        },
+        "build": {
+          "build/net46/LibGit2Sharp.NativeBinaries.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/LibGit2Sharp.NativeBinaries.props": {}
+        }
+      },
       "MessagePack/2.2.85": {
         "type": "package",
         "dependencies": {
@@ -9533,13 +9729,16 @@
           }
         }
       },
-      "System.ComponentModel.Composition/4.5.0": {
+      "System.ComponentModel.Composition/10.0.2": {
         "type": "package",
+        "frameworkAssemblies": [
+          "System.ComponentModel.Composition"
+        ],
         "compile": {
-          "ref/net45/_._": {}
+          "lib/net462/_._": {}
         },
         "runtime": {
-          "lib/net45/_._": {}
+          "lib/net462/_._": {}
         }
       },
       "System.Diagnostics.DiagnosticSource/5.0.1": {
@@ -10107,6 +10306,55 @@
         "lib/netcoreapp3.1/envdte90a.xml",
         "lib/netstandard2.0/envdte90a.dll",
         "lib/netstandard2.0/envdte90a.xml"
+      ]
+    },
+    "LibGit2Sharp/0.31.0": {
+      "sha512": "b3+UfV7LjKMjAHWwl7VawejiOv2gJIC6dTCA/S0puLTHACAA/Oeb5JJmWUQMeyH/T/WR/LaIK8bk2RbdFnrZvg==",
+      "type": "package",
+      "path": "libgit2sharp/0.31.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "App_Readme/CHANGES.md",
+        "App_Readme/LICENSE.md",
+        "App_Readme/README.md",
+        "lib/net472/LibGit2Sharp.dll",
+        "lib/net472/LibGit2Sharp.xml",
+        "lib/net8.0/LibGit2Sharp.dll",
+        "lib/net8.0/LibGit2Sharp.xml",
+        "libgit2sharp.0.31.0.nupkg.sha512",
+        "libgit2sharp.nuspec",
+        "square-logo.png"
+      ]
+    },
+    "LibGit2Sharp.NativeBinaries/2.0.323": {
+      "sha512": "Kg+fJGWhGj5qRXG0Ilj4ddhuodGXZg57yhfX6OVUDR0M2DKg/UR42/d74+qv5l1qotc1qJilo/ho7xQnULP6yA==",
+      "type": "package",
+      "path": "libgit2sharp.nativebinaries/2.0.323",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/LibGit2Sharp.NativeBinaries.props",
+        "build/net46/LibGit2Sharp.NativeBinaries.props",
+        "buildMultiTargeting/LibGit2Sharp.NativeBinaries.props",
+        "libgit2/LibGit2Sharp.dll.config",
+        "libgit2/libgit2.license.txt",
+        "libgit2/libgit2.png",
+        "libgit2/libgit2_hash.txt",
+        "libgit2sharp.nativebinaries.2.0.323.nupkg.sha512",
+        "libgit2sharp.nativebinaries.nuspec",
+        "runtimes/linux-arm/native/libgit2-3f4182d.so",
+        "runtimes/linux-arm64/native/libgit2-3f4182d.so",
+        "runtimes/linux-musl-arm/native/libgit2-3f4182d.so",
+        "runtimes/linux-musl-arm64/native/libgit2-3f4182d.so",
+        "runtimes/linux-musl-x64/native/libgit2-3f4182d.so",
+        "runtimes/linux-ppc64le/native/libgit2-3f4182d.so",
+        "runtimes/linux-x64/native/libgit2-3f4182d.so",
+        "runtimes/osx-arm64/native/libgit2-3f4182d.dylib",
+        "runtimes/osx-x64/native/libgit2-3f4182d.dylib",
+        "runtimes/win-arm64/native/git2-3f4182d.dll",
+        "runtimes/win-x64/native/git2-3f4182d.dll",
+        "runtimes/win-x86/native/git2-3f4182d.dll"
       ]
     },
     "MessagePack/2.2.85": {
@@ -12406,38 +12654,29 @@
         "version.txt"
       ]
     },
-    "System.ComponentModel.Composition/4.5.0": {
-      "sha512": "+iB9FoZnfdqMEGq6np28X6YNSUrse16CakmIhV3h6PxEWt7jYxUN3Txs1D8MZhhf4QmyvK0F/EcIN0f4gGN0dA==",
+    "System.ComponentModel.Composition/10.0.2": {
+      "sha512": "z2jrrqavHteGsK2/8nQstxSEQb/WQNOmLxWpTFf5HMDcdzZKd/Ohn+ZEXUMyJ7RdtkIw/ZXLU+/8oRdw1QBYCA==",
       "type": "package",
-      "path": "system.componentmodel.composition/4.5.0",
+      "path": "system.componentmodel.composition/10.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "LICENSE.TXT",
+        "Icon.png",
         "THIRD-PARTY-NOTICES.TXT",
-        "lib/MonoAndroid10/_._",
-        "lib/MonoTouch10/_._",
-        "lib/net45/_._",
-        "lib/netcoreapp2.0/System.ComponentModel.Composition.dll",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/System.ComponentModel.Composition.targets",
+        "lib/net10.0/System.ComponentModel.Composition.dll",
+        "lib/net10.0/System.ComponentModel.Composition.xml",
+        "lib/net462/_._",
+        "lib/net8.0/System.ComponentModel.Composition.dll",
+        "lib/net8.0/System.ComponentModel.Composition.xml",
+        "lib/net9.0/System.ComponentModel.Composition.dll",
+        "lib/net9.0/System.ComponentModel.Composition.xml",
         "lib/netstandard2.0/System.ComponentModel.Composition.dll",
-        "lib/uap10.0.16299/_._",
-        "lib/xamarinios10/_._",
-        "lib/xamarinmac20/_._",
-        "lib/xamarintvos10/_._",
-        "lib/xamarinwatchos10/_._",
-        "ref/MonoAndroid10/_._",
-        "ref/MonoTouch10/_._",
-        "ref/net45/_._",
-        "ref/netstandard2.0/System.ComponentModel.Composition.dll",
-        "ref/uap10.0.16299/_._",
-        "ref/xamarinios10/_._",
-        "ref/xamarinmac20/_._",
-        "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._",
-        "system.componentmodel.composition.4.5.0.nupkg.sha512",
+        "lib/netstandard2.0/System.ComponentModel.Composition.xml",
+        "system.componentmodel.composition.10.0.2.nupkg.sha512",
         "system.componentmodel.composition.nuspec",
-        "useSharedDesignerContext.txt",
-        "version.txt"
+        "useSharedDesignerContext.txt"
       ]
     },
     "System.Diagnostics.DiagnosticSource/5.0.1": {
@@ -13608,8 +13847,10 @@
   },
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.7.2": [
+      "LibGit2Sharp >= 0.31.0",
       "Microsoft.VSSDK.BuildTools >= 17.14.2120",
-      "Microsoft.VisualStudio.SDK >= 17.0.32112.339"
+      "Microsoft.VisualStudio.SDK >= 17.0.32112.339",
+      "System.ComponentModel.Composition >= 10.0.2"
     ]
   },
   "packageFolders": {
@@ -13656,6 +13897,10 @@
     "frameworks": {
       "net472": {
         "dependencies": {
+          "LibGit2Sharp": {
+            "target": "Package",
+            "version": "[0.31.0, )"
+          },
           "Microsoft.VSSDK.BuildTools": {
             "target": "Package",
             "version": "[17.14.2120, )",
@@ -13670,6 +13915,10 @@
             "noWarn": [
               "NU1604"
             ]
+          },
+          "System.ComponentModel.Composition": {
+            "target": "Package",
+            "version": "[10.0.2, )"
           }
         }
       }

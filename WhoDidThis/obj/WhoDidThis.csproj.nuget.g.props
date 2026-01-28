@@ -16,6 +16,7 @@
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)microsoft.vssdk.compatibilityanalyzer\17.14.2120\build\Microsoft.VsSDK.CompatibilityAnalyzer.props" Condition="Exists('$(NuGetPackageRoot)microsoft.vssdk.compatibilityanalyzer\17.14.2120\build\Microsoft.VsSDK.CompatibilityAnalyzer.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.vssdk.buildtools\17.14.2120\build\Microsoft.VSSDK.BuildTools.props" Condition="Exists('$(NuGetPackageRoot)microsoft.vssdk.buildtools\17.14.2120\build\Microsoft.VSSDK.BuildTools.props')" />
+    <Import Project="$(NuGetPackageRoot)libgit2sharp.nativebinaries\2.0.323\build\net46\LibGit2Sharp.NativeBinaries.props" Condition="Exists('$(NuGetPackageRoot)libgit2sharp.nativebinaries\2.0.323\build\net46\LibGit2Sharp.NativeBinaries.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgMicrosoft_VisualStudio_Threading_Analyzers Condition=" '$(PkgMicrosoft_VisualStudio_Threading_Analyzers)' == '' ">C:\Users\gdema\.nuget\packages\microsoft.visualstudio.threading.analyzers\17.0.64</PkgMicrosoft_VisualStudio_Threading_Analyzers>

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "SwuZxo8pZVI=",
+  "dgSpecHash": "TGvO7Gk5Pts=",
   "success": true,
   "projectFilePath": "C:\\Users\\gdema\\Desktop\\Luca\\estensioni\\WhoDidThis\\WhoDidThis\\WhoDidThis.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,8 @@
     "C:\\Users\\gdema\\.nuget\\packages\\envdte80\\17.0.32112.339\\envdte80.17.0.32112.339.nupkg.sha512",
     "C:\\Users\\gdema\\.nuget\\packages\\envdte90\\17.0.32112.339\\envdte90.17.0.32112.339.nupkg.sha512",
     "C:\\Users\\gdema\\.nuget\\packages\\envdte90a\\17.0.32112.339\\envdte90a.17.0.32112.339.nupkg.sha512",
+    "C:\\Users\\gdema\\.nuget\\packages\\libgit2sharp\\0.31.0\\libgit2sharp.0.31.0.nupkg.sha512",
+    "C:\\Users\\gdema\\.nuget\\packages\\libgit2sharp.nativebinaries\\2.0.323\\libgit2sharp.nativebinaries.2.0.323.nupkg.sha512",
     "C:\\Users\\gdema\\.nuget\\packages\\messagepack\\2.2.85\\messagepack.2.2.85.nupkg.sha512",
     "C:\\Users\\gdema\\.nuget\\packages\\messagepack.annotations\\2.2.85\\messagepack.annotations.2.2.85.nupkg.sha512",
     "C:\\Users\\gdema\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\5.0.0\\microsoft.bcl.asyncinterfaces.5.0.0.nupkg.sha512",
@@ -99,7 +101,7 @@
     "C:\\Users\\gdema\\.nuget\\packages\\streamjsonrpc\\2.8.28\\streamjsonrpc.2.8.28.nupkg.sha512",
     "C:\\Users\\gdema\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\gdema\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
-    "C:\\Users\\gdema\\.nuget\\packages\\system.componentmodel.composition\\4.5.0\\system.componentmodel.composition.4.5.0.nupkg.sha512",
+    "C:\\Users\\gdema\\.nuget\\packages\\system.componentmodel.composition\\10.0.2\\system.componentmodel.composition.10.0.2.nupkg.sha512",
     "C:\\Users\\gdema\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.1\\system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512",
     "C:\\Users\\gdema\\.nuget\\packages\\system.io\\4.3.0\\system.io.4.3.0.nupkg.sha512",
     "C:\\Users\\gdema\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512",
