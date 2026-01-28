@@ -1,0 +1,81 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\gdema\\Desktop\\Luca\\estensioni\\WhoDidThis\\WhoDidThis\\WhoDidThis.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\gdema\\Desktop\\Luca\\estensioni\\WhoDidThis\\WhoDidThis\\WhoDidThis.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\gdema\\Desktop\\Luca\\estensioni\\WhoDidThis\\WhoDidThis\\WhoDidThis.csproj",
+        "projectName": "WhoDidThis",
+        "projectPath": "C:\\Users\\gdema\\Desktop\\Luca\\estensioni\\WhoDidThis\\WhoDidThis\\WhoDidThis.csproj",
+        "packagesPath": "C:\\Users\\gdema\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gdema\\Desktop\\Luca\\estensioni\\WhoDidThis\\WhoDidThis\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "UsingMicrosoftNETSdk": false,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gdema\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "Microsoft.VSSDK.BuildTools": {
+              "target": "Package",
+              "version": "[17.14.2120, )",
+              "noWarn": [
+                "NU1604"
+              ]
+            },
+            "Microsoft.VisualStudio.SDK": {
+              "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[17.0.32112.339, )",
+              "noWarn": [
+                "NU1604"
+              ]
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-arm64": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
